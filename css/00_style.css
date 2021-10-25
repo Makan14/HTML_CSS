@@ -1,0 +1,32 @@
+/*attention ls commentaires ne s ecrivent ps de la mm maniere qu en html*/
+/*ls dev ont l habitude d utiliser 1 reset qui uniformisera en page cross navigateur*/
+/*prenez l habitude de tester vos fichiers de style de mettant un background-color: red sur votre body
+body{
+    background-color: red;
+}*/
+
+selecteur{
+    propriété: valeur;/*le ; est necessaire au fonctionnement du code*/
+}
+
+.class{/*permet de donner 1 nom à plsr balises*/
+    propriété: valeur;/*on peut mettre plrs instructions à la suite*/
+    propriété: valeur;
+    propriété: valeur;
+}
+
+#id{/*identifiant unique, on ne donne se nom qu à 1 balise, sert aussi pr faire une ancre*/
+    propriété: valeur;
+    propriété: valeur;
+    propriété: valeur;
+}
+
+.class, #id, balise{
+    propriété: valeur;
+    propriété: valeur;
+}
+
+.class1 .class2 .class3{/*ici on talk de la class3 qui est dns la class2 qui lui est dns la class1*/
+    propriété: valeur;
+    propriété: valeur;
+}
