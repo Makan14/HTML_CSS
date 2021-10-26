@@ -1,0 +1,50 @@
+*{ /*l étoile signifie qu on sélectionne tt le doc, cst 1 selecteur universelle*/
+    text-align: right;
+    
+}
+
+body{
+    background-color: orange;
+}
+
+header{
+    background-color: brown;
+    color: #fff;
+    height: 100px; /*height = hauteur*/
+}
+
+nav{
+    background-color: lightgreen;
+    height: 60px;
+}
+
+section{
+    background-color: navy;
+    height: 550px;
+}
+
+article{
+    background-color: pink;
+    height: 75px;
+}
+
+footer{
+    background-color: cyan;
+    height: 66px;
+}
+
+nav, footer{
+    color: brown;
+}
+
+.jaune{ /*j appel la class avc 1 point*/
+    background-color: yellow;
+}
+
+#noir{ /*j'appel l id avc 1 dièse*/
+    background-color: black;
+    color: white;
+    text-align: justify;
+    font-size: 25px; /*font-size = augmente la taille de la police*/
+}
+

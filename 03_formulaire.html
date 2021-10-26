@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="formulaire">
+    <link rel="stylesheet" href="css/03_formulaire.css">
+    <title>Formulaire HTML</title>
+</head>
+<body>
+    <form action="">
+        <!--il ya 2 manière d organiser ses champs-->
+        <label for="">
+            Pseudonyme
+            <input type="text" id="pseudo" placeholder="exemple" required>
+            <!--type précise le type de donnée récupérée, id sert à utiliser la donnée avc d autres langages, 
+                placeholder contient le txt qui apparait dns l input, required précise au nav que le champ est obligatoire-->
+        </label>
+        <br>
+        <label for="">
+            Mot de passe <span title="le mot de passe peut contenir...">*</span>
+        </label>
+        <input type="password" placeholder="Mot de passe" required>
+
+        <br>
+
+        <label for="">
+            Email
+            <input type="email" name="" id="" placeholder="test@test.test">
+        </label>
+
+        <br>
+
+        <label for="photo">
+            Photo
+        </label>
+        <input type="file" id="photo"><!--id pr relier le label et l input--><!--type file pr le bouton choisir un fichier-->
+
+        <br>
+
+        <fieldset><!--rassemble plrs champs enssemble-->
+            <legend>Choix multiples</legend>
+
+            <label for="">Quelle destination choisissez-vous ?</label>
+            <p>
+                <input type="checkbox" name="reponse1_1">Italie<!--name pr recupérer une valeur en php-->
+                <input type="checkbox" name="reponse2_1">Tunisie<!--name pr recupérer une valeur en php-->
+                <input type="checkbox" name="reponse3_1">Espagne<!--name pr recupérer une valeur en php-->
+            </p>
+
+            <label for="">Qui seront vos accompagnateurs ?</label>
+            <p>
+                <input type="radio" name="reponse1_2" id="">En famille
+                <input type="radio" name="reponse2_2" id="" checked>Entre amis <!--checked pr d office avoir 1 case cocher-->
+                <input type="radio" name="reponse3_2" id="">En solo              
+            </p>
+        </fieldset>
+
+        <label for="">Commentaires</label>
+        <textarea name="" id="" cols="80" rows="8"></textarea>
+
+        <input type="submit" value="Envoyer"> <!--submit pr le bouton envoyer-->
+
+        <input type="reset" value="Annuler"> <!--reset pr le bouton annuler-->
+    </form>
+
+
+</body>
+</html>

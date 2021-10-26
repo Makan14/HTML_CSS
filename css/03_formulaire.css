@@ -1,0 +1,25 @@
+label{
+    width: 190px;/*width=largeur*/
+    color: blue;
+    background-color: lightgray;
+}
+
+input{
+    background: yellow;
+    color: purple;
+}
+
+fieldset{
+    background: red;
+    text-align: center;
+}
+
+textarea{
+    background: orange;
+}
+
+form{
+    background: brown;
+}
+
+

@@ -1,0 +1,73 @@
+body{
+    background-color: red;
+    font-size: 25px;
+}
+
+h1{
+    background-color: pink;
+}
+
+p{
+    color: white;
+}
+
+section p:first-child{ /*le 1er enfants dns la section*/
+    color: purple;
+}
+
+section p:last-child{ /*le dernier enfant dns la section*/
+    color: yellow;
+}
+
+section p:nth-child(even){ /* even = ts ls nombres paires*/
+    color: royalblue;
+}
+
+section p:nth-child(odd){ /*odd = ts ls nombres impaires*/
+    color: seagreen;
+} 
+
+section p:nth-child(3), section p:nth-child(10){
+    color: orange;
+}
+
+.zone1{
+    color: yellow;
+}
+
+.zone2{
+    color: seagreen;
+}
+
+.lime{
+    color: lime;
+}
+
+.zone3{
+    background-color: mediumslateblue;
+}
+
+.zone3:before{ /*avant*/
+    content: "rajouté avant"; /*content est obligatoire mm qund cst vide*/
+    background-color: cyan;
+}
+
+.zone3::after{
+    content: "rajouté après";
+    background-color: cyan;
+}
+
+li:nth-of-type(2){
+    background-color: darkred;
+    color: white;
+}
+
+/*pr cibler le span 4444*/
+.zone4 span{
+    color: white;
+}
+/*OU*/
+span:not(.lime){ /*ne doit pas cibler la class lime*/
+    font-weight: bold;
+}
+/*pr cibler le span 4444*/
