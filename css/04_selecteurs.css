@@ -47,12 +47,12 @@ section p:nth-child(3), section p:nth-child(10){
     background-color: mediumslateblue;
 }
 
-.zone3:before{ /*avant*/
+.zone3:before{ /*avant(pseudo classe)*/
     content: "rajouté avant"; /*content est obligatoire mm qund cst vide*/
     background-color: cyan;
 }
 
-.zone3::after{
+.zone3::after{/*après (pseudo classe)*/
     content: "rajouté après";
     background-color: cyan;
 }
