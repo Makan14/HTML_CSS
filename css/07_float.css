@@ -1,0 +1,26 @@
+body{
+    margin: 0;/*en haut, à droite, en bas et à gauche*/
+}
+
+.boite{
+    /*vh(viewport height) = hauteur de l'ecran (10vh = 10% de la hauteur)*/
+    width: 10vw; /*vw(vieport width) = largeur de l'ecran (10vw = 10% de la largeur)*/
+    padding: 5vh;
+    background-image: url(../img/zoro.jpeg);
+    background-size: cover; /*étire l img pr qu'elle rentre dns la balise*/
+    border: 5px double red;
+    margin: 2vh;
+    float: left;/*effet flottant, ça sort ls éléments du flux naturelle de
+    la page et les places ls 1 à côté ds autres*/
+    background-repeat: no-repeat;
+    transition: margin 0.5s; /*augmente le margin en 0.5seconde grace à :hover*/
+
+}
+
+.boite:hover{ /*pseudo-class qui applique 1 effet au survole de la souris*/
+    margin-top: 10vh;
+}
+
+.clear{
+    clear: both;/*clear pr supprimer float ds 2 côtés*/
+}

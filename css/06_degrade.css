@@ -1,0 +1,12 @@
+.contenu{
+    height: 500px;
+    width: 500px;
+    margin: auto;
+    border-radius: 50%; /*pr arrondir ls angles*/
+    /* background: linear-gradient(to left, red, green);/*to left = je part de la droite pr aller vers la gauche (vert à gauche et rouge à droite)*/
+    background: rgb(2,0,36);
+    background: -moz-linear-gradient(90deg, rgba(2,0,36,1) 26%, rgba(121,29,9,1) 66%, rgba(255,102,0,1) 100%);
+    background: -webkit-linear-gradient(90deg, rgba(2,0,36,1) 26%, rgba(121,29,9,1) 66%, rgba(255,102,0,1) 100%);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 26%, rgba(121,29,9,1) 66%, rgba(255,102,0,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#020024",endColorstr="#ff6600",GradientType=1); 
+}
