@@ -1,0 +1,40 @@
+body{
+    font-family: poppins;
+}
+
+#conteneur{
+    width: 80%;
+    margin: 10px auto;
+    background-color: red;/*cette couleur n est pls visible à cause de la surcharge*/
+    border: 2px solid #000;/*on peut write ls hexadecimaux avc 3 caractères si ils 
+    sont tous identiques*/
+}
+
+header, footer{
+    height: 80px;
+    background-color: rgb(0, 47, 255);
+    color: #fff;
+    text-align: center;
+    padding-top: 6px;
+}
+
+nav{
+    height: 40px;
+    background-color: rgb(192, 33, 121);
+    color: white;
+    padding-left: 20px;
+    padding-top: 6px;
+    text-align: center;
+}
+
+section{
+    border: 20px solid #787746;
+    background-color: #e6e2af;
+    height: 500px;
+    text-align: center;
+}
+
+p{
+    margin: 0;
+}
+

@@ -1,0 +1,13 @@
+h1, h2, div, a, p, span, section{
+    text-align: center;
+    border: 1px solid cyan;
+    background-color: rgb(240, 0, 0);
+}
+
+.block{
+    display: block; /*on modifie l affichage de la balise pr quel deviennent de type block*/
+}
+
+.inline{
+    display: inline; /*on modifie l affichage de la balise pr quel deviennent de type inline*/
+}
